@@ -1,0 +1,73 @@
+/* Syntax for CSS pseudo-element
+selector::pseudo-element{
+    property:value;
+} */
+
+/* Tutorial section 2 */
+a:link {
+    color: #ff0000;
+}
+
+/* Tutorial section 3 */
+a:visited {
+    color: #4800ff;
+}
+
+/* Tutorial section 4 */
+a:hover {
+    color: #808080;
+}
+
+/* Tutorial section 5 */
+a:active {
+    color: #4cff00;
+}
+
+/* Tutorial section 6 */
+/* p.start::before {
+    content: "Read this -- ";
+} */
+
+/* Tutorial section 7 */
+/* p.end::after {
+    content: "More to come -- ";
+} */
+
+/* Tutorial section 8 */
+p[class=start]::before {
+    content: "Read this -- ";
+}
+
+p[class=end]::after {
+    content: "More to come -- ";
+}
+
+/* Exercise question 1 */
+p::first-line {
+    color: blue;
+}
+
+/* Exercise question 2 */
+p::first-letter {
+    color: red;
+    font-size: xx-large;
+}
+
+/* Exercise question 3 */
+p::before {
+    content: url(https://media.tenor.com/images/7db260732bbe2a6024d78ac75a3cb18d/tenor.gif);
+}
+
+p::after {
+    content: url(https://media.tenor.com/images/7db260732bbe2a6024d78ac75a3cb18d/tenor.gif);
+}
+
+/* Exercise question 4 */
+p.highlight:hover {
+    background-color: blue;
+}
+
+/* Exercise question 5 */
+input:focus {
+    background-color: lightblue;
+}

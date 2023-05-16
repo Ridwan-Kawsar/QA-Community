@@ -1,0 +1,43 @@
+/* EXERCISES
+Style the following html document with CSS for each of the elements
+    a). Add a blue colour to the <em> element
+    b). Identify a descendant and apply a descendant combinator to set the colour to red.
+    c). Identify a direct child relationship and apply a lime green colour.
+    d). Identify an adjacent-sibling relationship and apply a purple colour
+    e). Identify all siblings and apply a background-colour of grey
+    f). BONUS: Research pseduo-class and apply a hover effect on <p class="hover"> 
+*/
+
+em {                        /* a */
+     color: blue; 
+}
+
+p em {                      /* b */
+    color: red; 
+}
+
+header > h1 {               /* c */   
+    color: limegreen; 
+}
+
+h1 + p {                    /* d */   
+    color: purple;
+}
+
+h1 ~ p {                    /* e */  
+    background-color: grey;
+}
+
+.hover:hover{               /* f */  
+    background-color:#ffd800;
+}
+
+/* 
+    Selectors; are HTML elements such as body, div, span, section, p, h1..
+    ID Selectors - begins with #, needs to have an ID attribute assigned.
+    Class Selectors - begins with ., needs to have a class attribute assigned.
+
+    Descendent Selectors; e.g. ul li, li (list) is a descendant of ul (unordered list)
+    Child Selectors - used by putting a > between the parent and the child; e.g. section > p
+    Adjacent Selectors - used by putting a + between the siblings – the last sibling listed will be styled. e.g. h2 + p
+    Sibling Selectors - used by putting a ~ between two elements which matches all elements that are siblings of the selected element

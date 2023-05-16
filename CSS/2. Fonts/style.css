@@ -1,0 +1,35 @@
+.Serif {
+    color: green;
+    font-family: serif; /*Times New Roman*/
+    font-size: 50px; /*Described in px, %, or a value between xx-small and xx-large*/
+    text-align: center; /*Sets the horizontal alignment of text*/
+    word-spacing: 80px; /*Sets space between words*/
+}
+
+.Sans-serif {
+    color: blue;
+    font-family: sans-serif; /*Arial*/
+    font-weight: 500; /*Sets the thickness of the font*/
+    text-decoration: overline; /*Sets or removes decorations from text*/
+}
+
+.Monospace {
+    color: red;
+    font-family: monospace; /*Courier New*/
+    font-style: italic; /*Normal/Italic/Oblique (like Italic)*/
+    text-transform: uppercase; /*Specifies case for text-uppercase, lowercase, capitalize*/
+}
+
+.Cursive {
+    color: grey;
+    font-family: cursive; /*Brush Script*/
+    line-height: 2.5; /*Sets space between lines*/
+    text-indent: 3%; /*Specifies indentation of first line of text*/
+}
+
+.Fantasy {
+    color: orange;
+    font-family: fantasy; /*Papyrus*/
+    vertical-align: middle; /*Sets the alignment of the text in relation to the line box*/
+    letter-spacing: 1.5rem; /*Specifies space between characters in text*/
+}

@@ -1,0 +1,23 @@
+div {
+    transform: rotate(20deg) translate(200px, 100px) scale(2, 3) skew(20deg, 10deg); 
+    transform-origin: left;
+}
+
+/* 
+   Transform Property allows you to rotate, scale, move, skew, etc., elements.
+
+   transform-origin property allows you to change the position of transformed elements.
+   
+   rotate() method rotates an element clockwise or counter-clockwise, can also be rotated along a specified axis using:
+            rotateX(), rotateY(), rotateZ()
+
+   translate() method moves an element from its current position, can also be translate along a specified axis using:
+            translateX(), translateY(), translateZ()
+
+   scale() method increases or decreases the size of an element, can also be scaled along a specified axis using:
+            scaleX(), scaleY(), scaleZ()
+
+   skew() method skews an element along the X and Y-axis by the given angles, can also be skewed along a specified axis using:
+            skewX(), skewY(), skewZ() 
+*/
+            
